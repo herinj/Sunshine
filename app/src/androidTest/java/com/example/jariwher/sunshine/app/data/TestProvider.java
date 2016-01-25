@@ -412,7 +412,7 @@ public class TestProvider extends AndroidTestCase {
     // Student: Uncomment this test after you have completed writing the delete functionality
     // in your provider.  It relies on insertions with testInsertReadProvider, so insert and
     // query functionality must also be complete before this test can be used.
-    public void testDeleteRecords() {
+   /* public void testDeleteRecords() {
         testInsertReadProvider();
 
         // Register a content observer for our location delete.
@@ -433,7 +433,7 @@ public class TestProvider extends AndroidTestCase {
 
         mContext.getContentResolver().unregisterContentObserver(locationObserver);
         mContext.getContentResolver().unregisterContentObserver(weatherObserver);
-    }
+    }*/
 
 
     static private final int BULK_INSERT_RECORDS_TO_INSERT = 10;
